@@ -2097,8 +2097,8 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 <div class="d-article">
 <h1 id="impetus">1. Impetus</h1>
-<p>From a national perspective, hawker centres are the lifeblood of Singaporean society, providing ubiquitous access to a wide variety of affordable food to all residents across every town. Over the past few years, there has been public unhappiness that it is becoming increasingly untenable to run a hawker business, with rising costs of food, and overheads. <em>Is there truth in these claims and are hawker centres still as inclusive of Singaporeans from all walks of life?</em></p>
-<p>From a cultural POV, hawker culture was recognised as Singapore’s first element on the UNESCO Representative List of the Intangible Cultural Heritage of Humanity, cementing its role as an integral part of the way of life for Singaporeans. Singapore’s hawkers have also won many Bib Gourmands, a pinnacle international gastronomic award for high quality foods. It is often said that eating is a Singaporean national past-time. However, the sustainability of hawker culture remains questionable as the younger generation are discouraged by rising costs and long hours. <em>How has hawker economics performed in the past decade and how will it be affected in the future?</em></p>
+<p>Hawker centres are the lifeblood of Singaporean society, providing ubiquitous access to a wide variety of affordable food to all residents islandwide. In recent years, there has been growing unhappiness regarding rising costs of ingredients and overheads to run a hawker business. <em>Is hawkerpreneurship still a viable form of business and is eating at hawker centres still accessible to the average Singaporean?</em></p>
+<p>Hawker culture was recognised as Singapore’s first element on the UNESCO Representative List of the Intangible Cultural Heritage of Humanity, cementing its role as an integral part of the way of life for Singaporeans. Singapore’s hawkers have also won many Bib Gourmands, a pinnacle international gastronomic award for high quality foods. It is often said that eating is a Singaporean national past-time. However, the sustainability of hawker culture remains questionable as the younger generation are discouraged by rising costs and long hours. <em>How has hawker economics performed in the past decade and how will it be affected in the future?</em></p>
 <h1 id="objective">2. Objective</h1>
 <p>Develop a Shiny Application that allows users’ to:</p>
 <ol type="1">
@@ -2123,6 +2123,62 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <li>Hawker stall tender bids were obtained from the National Environment Agency’s website, <a href="https://www.nea.gov.sg/corporate-functions/resources/tender-notices">NEA</a>.</li>
 </ol>
 <h1 id="methodology">5. Methodology</h1>
+<p>Our group intends to conduct descriptive, inferential and time-series analysis on the datasets in order to glean important information about hawker centres as well as the possible correlations that are able to be drawn from it.</p>
+<h2 id="descriptive-analysis">Descriptive Analysis</h2>
+<p>In this section, an overall visualisation will be created to showcase general hawker information such as distribution of hawker centres in Singapore by planning area as well as top recommended hawker stalls in that area.</p>
+<div class="layout-chunk" data-layout="l-body">
+<p><img src="descriptive.png" width="3500px" style="float:left; padding:10px" /></p>
+</div>
+<p>Another page showcases the detailed breakdown of hawker centres as well as their types of food available. Furthermore, reviews left by previous customers online have been tabulated and colour-coded to give the user an idea of the quality of food at the hawker centre.</p>
+<div class="layout-chunk" data-layout="l-body">
+<p><img src="descriptive%202.png" width="3500px" style="float:left; padding:10px" /></p>
+</div>
+<h2 id="inferential-analysis">Inferential Analysis</h2>
+<p>As one of our main objectives are to explore the nature of the relationships, if any, between hawker centres and resident demographics in Singapore, both bivariate and multivariate analysis will be applied to the datasets available in order to draw possible correlations from them.</p>
+<p>The visualisation will be made interactive to allow users to do bivariate analysis and explore any correlations or associations between the number of hawker centres, and the resident demographic attributes in Singapore. Also, a scatterplot/stacked bar chart with significance test can be implemented.</p>
+<div class="layout-chunk" data-layout="l-body">
+<p><img src="bivariate.png" width="3500px" style="float:left; padding:10px" /></p>
+</div>
+<p>Besides bivariate analysis, an interactive corrgram or heatmap and dendogram can be used to visualize how the planning areas differ in terms of key planning area attributes. Some attributes include:</p>
+<ol type="1">
+<li>Population: No. of elderly/ young, Percentage of elderly/ young</li>
+<li>Housing type: Public (Small), Public (Large), Private</li>
+<li>Affordability: Makan Index</li>
+<li>Accessibility: No. of hawker stalls per capita/ square area</li>
+<li>Rating: Average Rating</li>
+</ol>
+<div class="layout-chunk" data-layout="l-body">
+<p><img src="multivariate.png" width="3500px" style="float:left; padding:10px" /></p>
+</div>
+<div class="layout-chunk" data-layout="l-body">
+<p><img src="multivariate%20heatmap.png" width="3500px" style="float:left; padding:10px" /></p>
+</div>
+<h2 id="time-series-analysis">Time-Series Analysis</h2>
+<p>Tying in with our original objective to examine the affordability of hawker food as well as predicting hawker economics such as costs of raw materials and prices of tender bids, our team will employ time-series analysis to visualise the following:</p>
+<ol type="1">
+<li>Changes in monthly average retail prices of selected raw ingredients</li>
+<li>Changes in tender bid prices per square metre for different types of cooked food and market stalls</li>
+</ol>
+<p>The above two points will be visualised in the form of a horizon graph in order to show the differences across a period of time.</p>
+<div class="layout-chunk" data-layout="l-body">
+<p><img src="horizon.png" width="3500px" style="float:left; padding:10px" /></p>
+</div>
+<p>Next, we would also conduct forecasting using regression on the following:</p>
+<ol type="1">
+<li>Future retail prices of selected raw ingredients</li>
+<li>Future tender bid prices per square metre for different types of cooked food and market stalls</li>
+<li>Population growth in planning areas</li>
+</ol>
+<p>This would help budding hawker stall owners plan ahead for the future and identify areas where hawker stalls would be high in demand.</p>
+<div class="layout-chunk" data-layout="l-body">
+<p><img src="forecasting.png" width="3500px" style="float:left; padding:10px" /></p>
+</div>
+<h1 id="references">6. References</h1>
+<ol type="1">
+<li><a href="https://thediplomat.com/2021/01/can-singapore-keep-its-precious-hawker-culture-alive/">Can Singapore Keep It’s Precious Hawker Culture Alive?, The Diplomat, January 2021</a>.</li>
+<li><a href="https://www.channelnewsasia.com/singapore/hawker-centre-rent-increase-kf-seetoh-nea-amy-khor-1990721">58% of hawkers whose tenancies were up for renewal from April to June had rentals revised down, CNA, 6 July 2021</a>.</li>
+<li><a href="https://lkyspp.nus.edu.sg/docs/default-source/case-studies/hawker-centre-case-study.pdf?sfvrsn=2bc7960b_2">Keeping Char Kway Teow Cheap - At What Price?, LKY School of Public Policy, 2015</a>.</li>
+</ol>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
