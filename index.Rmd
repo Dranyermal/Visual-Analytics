@@ -1,5 +1,5 @@
 ---
-title: "Jiak Ba Buay – An insight into the Belly of our Nation" 
+title: "Jiak Ba Buay – An Insight into the Belly of our Nation" 
 description: | 
   Proposal for ISSS608 Visual Analytics and Applications Group Project 
 author: 
@@ -68,7 +68,7 @@ The following data sets were used for the analyses:
 
 # 5. Methodology 
 
-Our group intends to conduct descriptive, inferential and time-series analysis on the datasets in order to glean important information about hawker centres as well as the possible correlations that are able to be drawn from it.
+The group intends to conduct descriptive, inferential and time-series analysis on the datasets in order to glean important information about hawker centres as well as the possible correlations that are able to be drawn from it.
 
 ## Descriptive Analysis
 
@@ -103,8 +103,11 @@ Besides bivariate analysis, an interactive corrgram or heatmap and dendogram can
 1) Population: No. of elderly/ young, Percentage of elderly/ young
 2) Housing type: Public (Small), Public (Large), Private
 3) Affordability: Makan Index
+
+(*The Makan Index is a base index that compares prices across geographical areas, using the price of a basket of hawker food items across different areas of Singapore.*)
+
 4) Accessibility: No. of hawker stalls per capita/ square area
-5) Rating: Average Rating
+5) Rating: Average Rating (0 - 100%, with 100% being the most positive)
 
 
 ```{r out.width='3500px', out.extra='style="float:left; padding:10px"', echo = FALSE}
