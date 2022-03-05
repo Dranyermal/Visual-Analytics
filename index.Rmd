@@ -23,9 +23,8 @@ knitr::opts_chunk$set(fig.retina = 3, cache = FALSE, echo = TRUE, message = FALS
 
 # 1. Impetus 
 
- 
 
-Hawker centres are the lifeblood of Singaporean society, providing ubiquitous access to a wide variety of affordable food to all residents islandwide. In recent years, there has been growing unhappiness regarding rising costs of ingredients and overheads to run a hawker business. *Is hawkerpreneurship still a viable form of business and is eating at hawker centres still accessible to the average Singaporean?* 
+Hawker centres are the lifeblood of Singaporean society, providing ubiquitous access to a wide variety of affordable food to all residents islandwide. In recent years, there has been growing unhappiness regarding rising costs of ingredients and overheads to run a hawker stall. *Is hawkerpreneurship still a viable form of business and is eating at hawker centres still accessible to the average Singaporean?* 
 
 Hawker culture was recognised as Singapore’s first element on the UNESCO Representative List of the Intangible Cultural Heritage of Humanity, cementing its role as an integral part of the way of life for Singaporeans. Singapore’s hawkers have also won many Bib Gourmands, a pinnacle international gastronomic award for high quality foods. It is often said that eating is a Singaporean national past-time. However, the sustainability of hawker culture remains questionable as the younger generation are discouraged by rising costs and long hours. *How has hawker economics performed in the past decade and how will it be affected in the future?* 
 
@@ -33,7 +32,7 @@ Hawker culture was recognised as Singapore’s first element on the UNESCO Repre
 
 # 2.	Objective 
 
-Develop a Shiny Application that allows users’ to: 
+Develop a Shiny Application that allows users to: 
 
  
 1. Explore the nature of the relationships, if any, between hawker centres and resident demographics in Singapore 
