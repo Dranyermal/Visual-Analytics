@@ -10,11 +10,25 @@
     },
     {
       "path": "index.html",
-      "title": "My Website",
-      "description": "Welcome to the website. I hope you enjoy it!\n",
+      "title": "Visual Analytics Project",
+      "description": "Building visually driven web-enabled Shiny application for democratising data and analytics.\n",
       "author": [],
       "contents": "\r\nHello\r\n\r\n\r\n\r\n",
-      "last_modified": "2022-03-05T23:58:44+08:00"
+      "last_modified": "2022-03-06T00:16:23+08:00"
+    },
+    {
+      "path": "website.html",
+      "title": "Jiak Ba Buay – An insight into the Belly of our Nation",
+      "description": "Proposal for ISSS608 Visual Analytics and Applications Group Project \n",
+      "author": [
+        {
+          "name": "Reynard LAM, Melissa TAN, Ranice TAN",
+          "url": {}
+        }
+      ],
+      "date": "`r Sys.Date()`",
+      "contents": "\r\n1. Impetus\r\nFrom a national perspective, hawker centres are the lifeblood of Singaporean society, providing ubiquitous access to a wide variety of affordable food to all residents across every town. Over the past few years, there has been public unhappiness that it is becoming increasingly untenable to run a hawker business, with rising costs of food, and overheads. Is there truth in these claims and are hawker centres still as inclusive of Singaporeans from all walks of life?\r\nFrom a cultural POV, hawker culture was recognised as Singapore’s first element on the UNESCO Representative List of the Intangible Cultural Heritage of Humanity, cementing its role as an integral part of the way of life for Singaporeans. Singapore’s hawkers have also won many Bib Gourmands, a pinnacle international gastronomic award for high quality foods. It is often said that eating is a Singaporean national past-time. However, the sustainability of hawker culture remains questionable as the younger generation are discouraged by rising costs and long hours. How has hawker economics performed in the past decade and how will it be affected in the future?\r\n2. Objective\r\nDevelop a Shiny Application that allows users’ to:\r\nExplore the nature of the relationships, if any, between hawker centres and resident demographics in Singapore\r\nExamine the affordability of hawker food and changes in costs of running a hawker business over a period of 12 years from 2010-2021, with a specific focus on the impact of the COVID-19 pandemic, if any.\r\nDevelop a regression model to predict hawker economics of raw materials and tender bids in the future\r\n3. Timeline\r\nThe proposed timeline for this project is as follows:\r\n\r\n\r\n\r\n4. Data sources\r\nThe following data sets were used for the analyses:\r\nHawker Centre Locations with Coordinates.\r\nHawker stall ratings and food type were obtained from Hawkerpedia.com.\r\nSingapore demographic data,Singapore Residents by Planning Area/ Subzone, Age Group, Sex, Type of Dwelling, June 2011-2020, was obtained from Singstat.\r\nThe Makan Index, an affordability score, was obtained from the LKY School of Public Policy report.\r\nAverage retail prices of selected consumer items from 2010-2022 were obtained from Consumer Price Index, January 2022.\r\nHawker stall tender bids were obtained from the National Environment Agency’s website, NEA.\r\n5. Methodology\r\n\r\n\r\n\r\n",
+      "last_modified": "2022-03-06T00:28:48+08:00"
     }
   ],
   "collections": []
