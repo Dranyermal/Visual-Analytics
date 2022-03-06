@@ -72,14 +72,7 @@ The group intends to conduct descriptive, inferential and time-series analysis o
 
 ## Descriptive Analysis
 
-In this section, an overall visualisation will be created to showcase general hawker information such as distribution of hawker centres in Singapore by planning area as well as top recommended hawker stalls in that area. 
-
-```{r out.width='3500px', out.extra='style="float:left; padding:10px"', echo = FALSE}
-knitr::include_graphics("descriptive.png")
-
-```
-
-Another page showcases the detailed breakdown of hawker centres as well as their types of food available. Furthermore, reviews left by previous customers online have been tabulated and colour-coded to give the user an idea of the quality of food at the hawker centre.
+In this section, an overall visualisation will be created to showcase general hawker information such as distribution of hawker centres in Singapore by planning area as well as the detailed breakdown of hawker centres as well as their types of food available. Furthermore, reviews left by previous customers online have been tabulated and colour-coded to give the user an idea of the quality of food at the hawker centre.
 
 ```{r out.width='3500px', out.extra='style="float:left; padding:10px"', echo = FALSE}
 knitr::include_graphics("descriptive 2.png")
